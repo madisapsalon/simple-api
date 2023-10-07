@@ -10,7 +10,7 @@ app.get('/hello', (req, res) => {
 });
 
 // Define the port on which the server will listen
-const port = 3000;
+const port = 5000;
 
 // Start the server
 app.listen(port, () => {
