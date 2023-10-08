@@ -10,7 +10,7 @@ const app = express();
 
 // Define a route for the endpoint
 app.get('/hello', (req, res) => {
-  res.send(`Hello, World from ${appEnvironment}`);
+  res.send(`Hello, World from ${appEnvironment}!`);
 });
 
 // Define the port on which the server will listen
